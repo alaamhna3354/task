@@ -1,4 +1,5 @@
-.partner .top-card,
+/* ************************** Start Partner ********************************* */
+/* .partner .top-card,
 .partner .content-title{
   text-align: center;
 }
@@ -45,4 +46,113 @@
     width: 100%;
     font-size: 18px;
   }
+} */
+/* ************************** End Partner ********************************* */
+
+/* ************************** Start Entidades ********************************* */
+#content .content ul {
+  padding: 0;
+  list-style: none;
 }
+/* select item */
+#content .content #nice-menu-1{
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+#content .content #nice-menu-1 li{
+  padding: 10px;
+  background-color: #74cbef;
+  margin-left: 1px;
+  transition: .5s;
+  
+}
+@media (max-width:568px) {
+  #content .content #nice-menu-1{
+    display: block;
+  }
+  #content .content #nice-menu-1 li:not(:last-child){
+    border-bottom: 1px solid #eee;
+  }
+}
+#content .content #nice-menu-1 li:hover{
+  background-color: #0184ec;
+}
+
+#content .content #nice-menu-1 li a{
+  text-decoration: none;
+  color: #fff;
+}
+/* title page */
+#content .content-title{
+  display: flex;
+  justify-content: start;
+}
+#content .content-title .title{
+  padding: 10px;
+  color: #006aa1;
+  border-bottom: 2px solid #006aa1;
+}
+/* item style */
+#content .content .view-content ul li {
+  padding: 10px;
+  border-bottom: 1px solid #bdbbbb;
+  color: #606060;
+}
+#content .view-content li .image{
+  display: flex;
+  margin: 25px 0;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+#content .view-content li .image img{
+  border: 1px solid #dbdbdb;
+  transition:.5s ;
+}
+#content .view-content li .image img:hover{
+  box-shadow: 1px 3px 10px #bfbfbf;
+}
+#content .view-content li .image h2{
+color: #606060;
+text-shadow: 1px 10px 10px #00000063;
+transition: .7s;
+}
+#content .view-content li .image h2:hover{
+  background: -webkit-linear-gradient(#ccc, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+@media (max-width:568px) {
+  #content .view-content li .image h2{
+   text-align: center;
+    }
+}
+#content .view-content .views-field .address{
+  font-style: italic;
+}
+#content .view-content p a{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 18px;
+  position: relative;
+}
+#content .view-content p a::after{
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  transition: .5s;
+  background-color: #0184ec;
+  left: 0;
+}
+#content .view-content p a:hover{
+  color: #09426f;
+}
+#content .view-content p a:hover::after{
+  width: 100%;
+}
+/* ************************** End Entidades ********************************* */
+
