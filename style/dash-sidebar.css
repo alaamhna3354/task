@@ -1,0 +1,83 @@
+/* ******************************* dash side bar **************************** */
+/* .elementor-column-gap-no{
+  flex-direction: column;
+} */
+/* .elementor-container{
+  display: grid;
+} */
+.elementor-container .jet-profile-menu{
+  overflow-y: scroll;
+  height: 400px;
+  scrollbar-width: thin;
+  border: 2px solid #eee;
+}
+.elementor-container .jet-profile-menu__item {
+  margin-bottom: 10px;
+  transition: .5s;
+}
+.elementor-container .jet-profile-menu__item:hover{
+  background-color: #2f81b0;
+}
+.elementor-container .jet-profile-menu__item:hover a{
+  color: #fff;
+}
+.elementor-container .jet-profile-menu__item:hover a::after{
+  color: #fff;
+}
+.elementor-container .jet-profile-menu__item a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+/* icon side bar */
+.jet-profile-menu__item a::after{
+  font-family: 'Font Awesome 5 Free';
+  vertical-align: middle;
+  font-weight: 900;
+  color: rgb(20, 81, 116);
+  font-size: 25px;
+  position: absolute;
+  top: -5px;
+  pointer-events: none;
+  left: 10%;
+  transform: translateX(-50%);
+}
+
+.elementor-container .jet-profile-menu__item:nth-child(1) a::after{
+  content: '\<select><option >11111</option><option >222</option><option >3333</option></select>'
+}
+.elementor-container .jet-profile-menu__item:nth-child(2) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(3) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(4) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(5) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(6) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(7) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(8) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(9) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(10) a::after{
+  content: '\f666 '
+}
+.elementor-container .jet-profile-menu__item:nth-child(11) a::after{
+  content: '\f666 '
+}
+
+
+

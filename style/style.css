@@ -1,0 +1,388 @@
+/* Start Partner */
+.partner .top-card,
+.partner .content-title{
+  text-align: center;
+}
+.partner .top-card img {
+  max-height: 100%;
+}
+.partner .content-title .entry-title {
+  font-size: 1.7647058823529rem;
+  text-shadow: 1px 9px 6px #000000a3;
+  font-style: italic;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.partner .card-content {
+  display: flex;
+  flex-flow: wrap;
+}
+.partner .card-content h3 {
+  width: 50%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 2;
+  opacity: 0.9;
+}
+.partner .card-content h3 span {
+  opacity: 0.8;
+  font-style: italic;
+  text-shadow: 1px 8px 10px;
+  color: #027cb3;
+}
+.partner .card-content > :last-child {
+  margin-bottom: 20px;
+}
+@media (max-width: 568px) {
+  .partner .card-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .partner .card-content h3 {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+/*  End Partner  */
+/* Start training_entity  */
+#training_entity{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#training_entity .content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 4px 7px 25px #cacaca;
+}
+@media (max-width:991px) {
+    #training_entity .content{
+        width: 100%;
+    }
+}
+#training_entity .image{
+    width: 200px;
+    height: 225px; 
+}
+#training_entity .image img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#training_entity .info{
+    width: 100%;
+}
+#training_entity .info h3{
+    color: #00659b;
+}
+#training_entity .info h4{
+   opacity: .7;
+}
+#training_entity .info button{
+    padding: 7px 25px;
+    font-size: 23px;
+    background-color: #fff;
+    color: #1dbfc1;
+    border: 1px solid #1dbfc1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+ }
+ #training_entity .info button:hover{
+    background-color: #1dbfc1;
+    color: #fff;
+    border: 1px solid #1dbfc1;
+ }
+/* End training_entity */
+
+/* Start Course */
+#course{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#course .content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 4px 7px 25px #cacaca;
+}
+@media (max-width:991px) {
+    #course .content{
+        width: 35%;
+    }
+}
+@media (max-width:568px) {
+    #course .content{
+        width: 95%;
+    }
+}
+#course .image{
+    width: 200px;
+    height: 225px; 
+}
+#course .image img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#course .info{
+    width: 100%;
+    text-align: center;
+}
+#course .info h3{
+    color: #00659b;
+    font-size: 23px;
+}
+#course .info h4{
+   opacity: .7;
+}
+#course .info button{
+    padding: 7px 25px;
+    font-size: 23px;
+    background-color: #fff;
+    color: #1dbfc1;
+    border: 1px solid #1dbfc1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+ }
+ #course .info button:hover{
+    background-color: #1dbfc1;
+    color: #fff;
+    border: 1px solid #1dbfc1;
+ }
+/* End Course */
+/* Start training_entity 722  */
+
+#training_722{
+    width: 100%;
+    display: grid;
+    background-color: #effafa;
+}
+#training_722 h2 {
+    color: #0a4870;
+    font-weight: 500;
+    padding-inline-start: 50px;
+}
+#training_722 ul {
+    list-style: none;
+    padding: 0;
+}
+#training_722 ul .booking-card {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex: 0 0 300px;
+    flex-direction: column;
+    margin-bottom: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: #0a4870;
+    transition: 0.3s;
+}
+@media (max-width:568px) {
+    #training_722 ul .booking-card {
+    width: 90%;
+    }
+}
+#training_722 ul .booking-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 72, 112, 0);
+    transition: 0.3s;
+}
+#training_722 ul .booking-card .book-container {
+    height: 200px;
+}
+#training_722 ul .booking-card .book-container .content {
+    position: relative;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-200px);
+    transition: 0.3s;
+}
+#training_722 ul .booking-card .book-container .content .btn {
+    border: 3px solid white;
+    padding: 10px 15px;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#training_722 ul .booking-card .book-container .content .btn:hover {
+    background: white;
+    border: 0px solid white;
+    color: #0a4870;
+}
+#training_722 ul .booking-card .informations-container {
+    flex: 1 0 auto;
+    padding: 20px;
+    background: #f0f0f0;
+    transform: translateY(150px);
+    transition: 0.3s;
+}
+#training_722 ul .booking-card .informations-container .title {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#training_722 ul .booking-card .informations-container .title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 50px;
+    margin: auto;
+    background: #0a4870;
+}
+#training_722 ul .booking-card .informations-container .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+#training_722 ul .booking-card .informations-container .price .icon {
+    margin-right: 10px;
+}
+#training_722 ul .booking-card .informations-container .more-information {
+    opacity: 0;
+    transition: 0.3s;
+}
+#training_722 ul .booking-card .informations-container .more-information .info-and-date-container {
+    display: flex;
+}
+#training_722 ul .booking-card .informations-container .more-information .info-and-date-container .box {
+    flex: 1 0;
+    padding: 5px;
+    margin: 20px 20px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: white;
+    font-weight: bold;
+    font-size:16px;
+}
+#training_722 ul .booking-card .informations-container .more-information .info-and-date-container .box .icon {
+    margin-bottom: 5px;
+}
+#training_722 ul .booking-card .informations-container .more-information .info-and-date-container .box.info a {
+    color: #ec992c;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+#training_722 ul .booking-card .informations-container .more-information .info-and-date-container .box.info a:hover{
+    color: #bb6e08;
+    text-decoration-line: underline;
+}
+#training_722 ul .booking-card .informations-container .more-information .info-and-date-container .date a{
+    color: #2c5fec;
+    margin-right: 10px;
+    transition: .5s;
+    text-decoration: none;
+}
+#training_722 ul .booking-card .informations-container .more-information .info-and-date-container .date a:hover{
+    color: #113086;
+    text-decoration-line: underline;
+}
+#training_722 ul .booking-card .informations-container .more-information .disclaimer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #7d7d7d;
+}
+#training_722 ul .booking-card:hover::before {
+    background: rgba(10, 72, 112, 0.6);
+}
+#training_722 ul .booking-card:hover .book-container .content {
+    opacity: 1;
+    transform: translateY(0px);
+}
+#training_722 ul .booking-card:hover .informations-container {
+    transform: translateY(0px);
+}
+#training_722 ul .booking-card:hover .informations-container .more-information {
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    #training_722 ul .booking-card::before {
+        background: rgba(10, 72, 112, 0.6);
+   }
+   #training_722 ul .booking-card .book-container .content {
+        opacity: 1;
+        transform: translateY(0px);
+   }
+   #training_722 ul .booking-card .informations-container {
+        transform: translateY(0px);
+   }
+   #training_722 ul .booking-card .informations-container .more-information {
+        opacity: 1;
+   }
+}
+#training_722 .bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+#training_722 .bottom div{
+    padding: 10px;
+    border: 1px solid #1dbfc1;
+    color: #1dbfc1;
+    transition: .5s;
+    cursor: pointer;
+}
+#training_722 .bottom div:hover{
+    background-color:#1dbfc1;
+    color: #fff;
+}
+/* End training_entity 722 */
+/* Start Archive Partner */
+#archivePartner{
+background-color: #effafa;
+}
+#archivePartner .title{
+    display: flex;
+    justify-content: flex-start;
+}
+#archivePartner .title h1{
+    padding: 20px;
+    border: 2px solid #00a9ac;
+}
+/* End  Archive Partner*/

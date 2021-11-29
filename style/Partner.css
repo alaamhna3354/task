@@ -1,0 +1,50 @@
+/* ************************** Start Partner ********************************* */
+.partner .top-card,
+.partner .content-title{
+  text-align: center;
+}
+.partner .top-card img {
+  max-height: 100%;
+}
+.partner .content-title .entry-title {
+  font-size: 1.7647058823529rem;
+  text-shadow: 1px 9px 6px #000000a3;
+  font-style: italic;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.partner .card-content {
+  display: flex;
+  flex-flow: wrap;
+}
+.partner .card-content h3 {
+  width: 50%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 2;
+  opacity: 0.9;
+}
+.partner .card-content h3 span {
+  opacity: 0.8;
+  font-style: italic;
+  text-shadow: 1px 8px 10px;
+  color: #027cb3;
+}
+.partner .card-content > :last-child {
+  margin-bottom: 20px;
+}
+@media (max-width: 568px) {
+  .partner .card-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .partner .card-content h3 {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+/* ************************** End Partner ********************************* */
